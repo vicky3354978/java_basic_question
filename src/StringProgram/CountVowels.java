@@ -9,7 +9,7 @@ public class CountVowels {
         for (int i=0;i<word.length();i++)
         {
             c=word.charAt(i);
-            if(c=='a'||c=='i'||c=='e'||c=='o'||c=='u')
+            if(c=='a'||c=='i'||c=='e'||c=='o'||c=='u'|| c=='A' || c=='I'||c=='E'||c=='O'||c=='U')
             {
                 count++;
             }
