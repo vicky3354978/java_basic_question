@@ -10,6 +10,7 @@ public class RemoveAllSpace {
                 {
                     result.deleteCharAt(i);
                     i--;
+                    //this i-- check the next index is space or not
                 }
             }
         System.out.println("the result is :"+result);
